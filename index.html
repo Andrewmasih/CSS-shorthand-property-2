@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Background shorthand property</title>
+    <style>
+      .image {
+        width: 70px;
+        height: 70px; 
+        background: url("https://dummyimage.com/450x250/f00/fff") center center / cover no-repeat;
+        
+      }
+
+      /* 
+        Undefined properties are set
+        to their initial values:
+        
+        background-color: transparent;
+        background-attachment: scroll;
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-clip: border-box;
+        background-origin: padding-box;
+        background-image: url("https://dummyimage.com/450x250/f00/fff");
+      */
+    </style>
+  </head>
+  <body>
+    <div class="image"></div>
+  </body>
+</html>
